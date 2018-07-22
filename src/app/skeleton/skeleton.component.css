@@ -1,0 +1,110 @@
+.menu-button-size{
+    font-size: 32px;
+}
+.margin-left-38{
+    margin-left: 38%;
+}
+.categorytext{
+    margin:10px 0 -10px -5px;
+    font-size:1.22rem;
+}
+.person-detail{
+    background-color: rgb( 198, 12, 48);
+
+}
+.header-height{
+    height :90px;
+}
+.title-font{
+    font-size:28px;
+    color: #ffffff;
+}
+.detail-title-font{
+    font-size:16px;
+    color: #ffffff;
+}
+.detail-data-font{
+    font-size:22px;
+    color: #ffffff;
+}
+.skywards-details{
+    height:120px;
+    background-color: rgb(237,237,237);
+}
+.margin-personal-detail{
+    margin:10px 0 20px 20px;
+}
+.margin-bottom-20{
+    margin-bottom:20px;
+}
+.skywards-title-font{
+ font-size:16px;
+ color:#000;
+ margin-top:20px;
+}
+.skywards-data-font{
+    font-size:30px;
+    color:#000;
+    margin-bottom:20px;
+} 
+.cltv-details{
+    height:120px;
+    background-color: rgb(181,12,45);
+}
+.cltv-value{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+.cltv-title{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: -7px;
+}
+.class-details{
+    height:60px;
+    margin-top:30px;
+    border-left: 1px solid rgb(99,2,21);
+}
+.economyclass{
+    font-size:22px;
+    color:#ffffff;
+    margin-left:8%;
+}
+.businessclass{
+    font-size: 22px;
+    color: #ffffff;
+    margin-left: 1%;
+}
+.trip-summary{
+    min-height:400px;
+    color:#ffffff;
+}
+.trip-data-rowimage{
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.trip-data-rowtext{
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.trip-data-row{
+    margin-top: 10px;  
+}
+.size-subtitle-trip{
+    font-size:1.05rem;
+}
+.data-column{
+    margin-top: 28px;
+}
+.size-main-trip{
+    font-size: 30px;
+}
+.margin-top-20{
+margin-top:20px;
+}
+.asset-background{
+    background-color: rgb(18,26,42);
+}

@@ -1,0 +1,114 @@
+<div class=" row asset-header-font">
+    <ul class="offset-sm-2 nav">
+        <li class="nav-item">
+          <a class="nav-link links-font" href="#">Airport</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link links-font" href="#">Booking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link links-font" href="#">Transfer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link links-font" href="#">Activity</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link links-font" href="#">Accommodation</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link links-font" href="#">Seasonality</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link links-font" href="#">Shopping</a>
+              </li>
+      </ul>
+</div>
+<div class="row">
+  <div class="col-sm-3 period-container">
+    <span class="links-font">Period:</span>
+    <span class="links-font"> 2018</span>
+  </div>
+
+</div>
+<div class="row">
+    <!-- info component -->
+<div class="col-sm-3 info-container">
+    <div class="row">
+  <div class="col-sm-3 image-background">
+    <img style="padding-top:20px" src="./assets/images/icons8FlightSeatFilled50.png"/>
+  </div>
+  <div class="col-sm-9 info-background">
+    <div class="row text-center links-font"> Seat Preferred</div>
+    <div class="row text-center"> 
+      <div class="heavy-blue-text col-sm-3">60%</div>
+      <div class="small-info-text col-sm-9">Window Seat in last 25 trips</div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="col-sm-3 info-container">
+  <div class="row">
+  <div class="col-sm-3 image-background">
+    <img style="padding-top:20px" src="./assets/images/loungeicon.png"/>
+  </div>
+  <div class="col-sm-9 info-background">
+    <div class="row text-center links-font"> Lounge Usage</div>
+    <div class="row text-center"> 
+        <div class="heavy-blue-text col-sm-3">18</div>
+        <div class="small-info-text col-sm-9">Lounge used in last 25 trips</div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="col-sm-3 info-container">
+    <div class="row">
+  <div class="col-sm-3 image-background">
+    <img style="padding-top:20px" src="./assets/images/checkinIcon.png"/>
+  </div>
+  <div class="col-sm-9 info-background">
+    <div class="row text-center links-font"> Checkin Channel</div>
+    <div class="row text-center"> 
+        <div class="heavy-blue-text col-sm-3">25</div>
+        <div class="small-info-text col-sm-9">Airport Checkin in last 25 trips</div>
+      </div>
+  </div>
+  </div>
+</div>
+
+
+</div>
+<div class="divider-div"></div>
+<div class="row">
+  <!-- chart component -->
+  <div style="margin-left:10px;" class=" col-sm-5">
+      <div class="row heading-charts">Baggage Preference</div>
+      <div class="row">
+          <app-democust4baggage>  </app-democust4baggage>
+        </div>
+      
+    </div>
+    <div class="offset-sm-1 col-sm-5">
+        <div class="row heading-charts">Meal Preference</div>
+        <div class="row">
+            <app-sprint3custmealpref></app-sprint3custmealpref>
+           </div>
+      </div>
+
+</div>
+<div class="divider-div"></div>
+<div class="row">
+    <!-- chart component -->
+    <div style="margin-left:10px;"  class="col-sm-5">
+      <div class="row heading-charts">CDS History</div>
+      <div class="row">
+        <app-sprint3custcds></app-sprint3custcds>
+          </div>
+      </div>
+      <div class="offset-sm-1 col-sm-5">
+          <div class="row heading-charts">Miles Redemption Preference</div>
+          <div class="row">
+              <app-sprint3custredemption></app-sprint3custredemption>
+              </div>
+        </div>
+  
+  </div>
