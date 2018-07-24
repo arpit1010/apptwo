@@ -34,7 +34,9 @@ var planeSVG = "M19.671,8.11l-2.777,2.777l-3.837-0.861c0.362-0.505,0.916-1.683,0
         "projection": "miller",
         "dataProvider": {
           "map": "worldLow",
-          
+          "zoomLevel": 5,
+          "zoomLongitude": 72.8,
+          "zoomLatitude": 19.1,
           "images": [ 
             {
                 "label": "",
@@ -47,12 +49,7 @@ var planeSVG = "M19.671,8.11l-2.777,2.777l-3.837-0.861c0.362-0.505,0.916-1.683,0
                 "labelRollOverColor": "#CC0000",
                 "labelFontSize": 20
               },
-             {
-              "svgPath": targetSVG,
-              "title": "Al Sa'ada Street<br>Dubai<br>(9 times) ",
-              "latitude": 25.207603,
-              "longitude": 55.2781
-            }, {
+              {
               "svgPath": targetSVG,
               "title": "Mankhurd,<br>Mumbai<br>(4 times)",
               "latitude": 19.0558482,
@@ -62,32 +59,7 @@ var planeSVG = "M19.671,8.11l-2.777,2.777l-3.837-0.861c0.362-0.505,0.916-1.683,0
               "title": "Andheri East,<br>Mumbai<br>(3 times)",
               "latitude": 19.1117276,
               "longitude": 72.8712706
-            }, {
-              "svgPath": targetSVG,
-              "title": "Louvre,<br>Paris<br>(1 time)",
-              "latitude": 48.8613736,
-              "longitude": 2.3486359
-            }, {
-              "svgPath": targetSVG,
-              "title": "Fort Lauderdale,<br>Florida<br>(1 time)",
-              "latitude": 26.1306851,
-              "longitude": -80.106281
-            }, {
-              "svgPath": targetSVG,
-              "title": "Soho,<br>London<br>(1 time)",
-              "latitude": 51.5143496,
-              "longitude": -0.1318468
-            }, {
-              "svgPath": targetSVG,
-              "title": "Marylebone, <br>London<br>(2 times)",
-              "latitude": 51.5177128,
-              "longitude": -0.1433227
-            }, {
-              "svgPath": targetSVG,
-              "title": "South Ridge,<br>Downtown Dubai<br>(9 times)",
-              "latitude": 25.187053,
-              "longitude": 55.2782352
-            },
+            }
         ]
         },
       

@@ -53,26 +53,17 @@ export class Democust4baggageComponent implements OnInit,AfterViewInit {
           name : 'Most preferred Baggage segment',
           data: [{
               name: '0 Kg/ Baggage data Unavailable',
-              y: 60
-              
-          }, {
-              name: '1-10 Kg',
-              y: 4
-          }, {
-              name: '11-20 Kg',
-              y: 28,
+              y: 10,
               sliced: true,
               selected: true
+              
+          }, {
+              name: '11-20 Kg',
+              y: 1
           }, {
             name: '21-30 Kg',
-            y: 14
-        },{
-          name: '31-40 Kg',
-          y: 8
-      },{
-        name: 'Above 40 Kg',
-        y: 5
-    }
+            y: 1
+        }
       
       
       

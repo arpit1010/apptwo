@@ -47,7 +47,7 @@ export class Sprint3custmealprefComponent implements OnInit,AfterViewInit {
       },
       tooltip: {
           headerFormat: '<b>{point.x}</b><br/>',
-          pointFormat: '{point.y} out of 18 times'
+          pointFormat: '{point.y} out of 12 times'
       },
       plotOptions: {
           column:{
@@ -62,7 +62,7 @@ export class Sprint3custmealprefComponent implements OnInit,AfterViewInit {
       series: [
           {
             
-              data:[10,6,0,2]
+              data:[2,0,0,0]
           }
       ]
   }
